@@ -8,7 +8,11 @@ pipeline
     {
       steps
       {
-        echo 'Building application'        
+        echo 'Building application'  
+        echo 'Info request'  
+        pwd
+        ls
+        echo 'Info answers'  
       }
     }
     stage("test")
