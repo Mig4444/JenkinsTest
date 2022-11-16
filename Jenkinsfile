@@ -8,11 +8,8 @@ pipeline
     {
       steps
       {
-        echo 'Building application'  
-        echo 'Info request'  
-        sh pwd
-        sh ls
-        echo 'Info answers'  
+        echo 'Building application'
+        gcc main.c -o main
       }
     }
     stage("test")
