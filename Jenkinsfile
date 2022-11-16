@@ -8,8 +8,8 @@ pipeline
     {
       steps
       {
-        sh echo 'Building application'  
-        sh echo 'Info request'  
+        echo 'Building application'  
+        echo 'Info request'  
         sh pwd
         sh ls
         echo 'Info answers'  
