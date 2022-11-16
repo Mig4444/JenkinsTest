@@ -10,6 +10,7 @@ pipeline
       {
         echo 'Building application'
         sh 'g++ main.c -o main'
+        sh './main'
       }
     }
     stage("test")
