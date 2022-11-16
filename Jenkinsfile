@@ -9,7 +9,7 @@ pipeline
       steps
       {
         echo 'Building application'
-        gcc main.c -o main
+        g++ main.c -o main
       }
     }
     stage("test")
